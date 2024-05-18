@@ -42,8 +42,10 @@ function Title({ text }) {
            initial={{ y: -50, opacity: 0 }}
            animate={{ y: 0, opacity: 1}}
            transition={{
-            duration: 0.25,
-            delay: i / 10
+            duration: 0.20,
+            delay: i / 14,
+            type: "spring",
+            bounce: 0.35,
            }}
            key={i}>
             {el}

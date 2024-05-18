@@ -39,12 +39,14 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 5rem;
 }
 
 @media screen and (min-width: 600px) {
   body {
+    margin-top: 0;
     padding-inline: 0;
+    align-items: center;
   }
 }
 
